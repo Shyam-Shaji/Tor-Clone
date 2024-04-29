@@ -1,0 +1,869 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Header Css Starts*/
+.header-container {
+    /* display: block; */
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    height: 95px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* position: fixed; */
+    overflow: auto
+}
+
+.nav-bar {
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    display: inline-block;
+}
+
+.navbar-brand img {
+    max-width: 4em;
+}
+
+.donate-now {
+    margin-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.donate-btn {
+    color: #111;
+    font-size: 75%;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #ffbf00;
+}
+
+.nav-menus {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(89, 49, 107);
+    width: 80%;
+    height: 35px;
+}
+
+.menu-items {
+    display: flex;
+    width: 340px;
+    height: 35px;
+    margin-right: 100px;
+    background-color:rgb(89, 49, 107);
+}
+
+.menu-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.list-items li {
+    list-style: none;
+}
+
+.list-items a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.btns-container {
+    display: flex;
+    height: 34px;
+    width: 250px;
+    float: right;
+    background-color: rgb(89, 49, 107);
+}
+
+.lang-btn {
+ font-size: 12px;
+}
+
+.lang-btn button {
+    height: 34px;
+    width: 85px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background-color: rgb(89, 49, 107);
+    padding: 5px;
+}
+
+.dwn-btn-container {
+    width: 155px;
+    height: 30px;
+    background-color: rgb(89, 49, 107);
+    margin-left: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.dwn-btn {
+    text-align: center;
+    color: white;
+    background-color: rgb(89, 49, 107);
+    padding: 7px;
+    width: 267px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+/* Header Css Ends */
+
+/* Hero Section Starts */
+
+.main-section {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(89, 49, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.into-container {
+    background-color: rgb(89, 49, 107);
+    height: 95vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-row {
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.heading-row h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 105.6px;
+    margin-block: 8px;
+    margin-block-start: 0px;
+    margin-bottom: 8px;
+}
+
+.explore-heading {
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+.explore-heading h1 {
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 105px;
+    margin-block-end: 8px;
+}
+
+.info-heading {
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+}
+
+.info-heading h3 {
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-block-end: 8px;
+    margin-block-start: 0px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding: 16px;
+}
+
+.down-tor-btn {
+    background-color: rgb(89, 49, 107);
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    /* padding: 48px; */
+    position: relative;
+    /* width: 1110px; */
+    margin-top: 17px;
+}
+
+.down-tor-btn a {
+    color: white;
+    /* margin-top: 0px; */
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 3px;
+    vertical-align: middle;
+}
+/* Hero Section Ends */
+
+/* Img description Starts */
+
+.container-img-description {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-description-wrapper {
+    width: 98%;
+    /* height: 90vh; */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* overflow: auto; */
+}
+
+.image-container {
+    width: 45%;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+}
+
+.image-container img {
+    height: 229px;
+    width: 344px;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.phara-container {
+    width: 55%;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    padding: 10px;
+}
+
+.phara-heading {
+    background-color: rgb(255, 255, 255);
+    margin-top: 35px;
+}
+
+.phara-heading h4 {
+    color: rgb(89, 49, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.phara-text {
+    margin-top: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+.phara-text p {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.second-wrapper {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+
+.second-heding-container {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.second-heading {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.second-heading h4 {
+    color: rgb(89, 49, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.second-phara {
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.second-phara p {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.second-img-container {
+    width: 50%;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    /* display: inline-block; */
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.second-img-container img {
+    height: 229px;
+    width: 344px;
+    vertical-align: center;
+    padding: 8px;
+}
+
+.third-wrapper {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+
+.third-img-container {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.third-img-container img {
+    height: 229px;
+    width: 344px;
+    vertical-align: center;
+    padding: 8px;
+}
+
+.third-heading-container {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    display: inline-block;
+    float: right;
+}
+
+.third-heading {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.third-heading h4 {
+    color: rgb(89, 49, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.third-phara {
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.third-phara p {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.fourth-wrapper {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+
+.fourth-heding-container {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.fourth-heading {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.fourth-heading h4 {
+    color: rgb(89, 49, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fourth-phara {
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.fourth-phara p {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.fourth-img-container {
+    width: 50%;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    /* display: inline-block; */
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-img-container img {
+    height: 229px;
+    width: 344px;
+    vertical-align: center;
+    padding: 8px;
+}
+
+.fiveth-wrapper {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+
+.fiveth-img-container {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.fiveth-img-container img {
+    height: 229px;
+    width: 344px;
+    vertical-align: center;
+    padding: 8px;
+}
+
+.fiveth-heading-container {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    display: inline-block;
+    float: right;
+}
+
+.fiveth-heading {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.fiveth-heading h4 {
+    color: rgb(89, 49, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fiveth-phara {
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.fiveth-phara p {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* Img description Ends */
+
+/* About Section Strarts */
+
+.about-container {
+    width: 100%; 
+    /* height: 100vh; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.about-wrapper {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    /* height: 90vh; */
+    margin-top: 10px;
+}
+
+.about-header {
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+.about-header h6 {
+    color: rgb(89, 49, 107);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about-description p{
+    cursor: pointer;
+    color: rgb(72, 72, 72);
+    font-size: 52px;
+    font-weight: 200;
+    font-style: light;
+    font-family: Source Sans;
+    line-height: 80px;
+}
+
+.about-description p span {
+    cursor: pointer;
+    color: rgb(89, 49, 107);
+}
+/* About Section Ends */
+
+/* Footer Section Starts */
+
+.footer-sections {
+    background-color: rgb(89, 49, 107);
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.footer-wrapper {
+    margin-top: 50px;
+    width: 100%;
+    /* height: 95vh; */
+    background-color: rgb(89, 49, 107);
+}
+
+.first-row {
+    height: 44%;
+    width: 100%;
+    background-color: rgb(89, 49, 107);
+    position: relative;
+}
+
+.circle-pattern-container {
+    display: inline-block;
+    background-color: rgb(89, 49, 107);
+    height: 179px;
+    width: 255px;
+    overflow: hidden;
+    object-fit: fill;
+    /* display: flex; */
+    
+}
+
+.circle-pattern-container img {
+    height: 226px;
+    transform: translate(-553px, -35px);
+    margin-right: 20px;
+}
+
+.download-section {
+    display: inline-block;
+    background-color: rgb(89, 49, 107);
+    height: 143px;
+    width: 45%;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 36px;
+    padding: 10px;
+}
+
+.download-section h2{
+    color: white;
+    display: block;
+    font-family: Source Sans;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.download-section p {
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.first-button {
+    font-size: 14px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 4px;
+    /* margin-left: 100px; */
+}
+
+.second-row {
+    background-color: rgb(89, 49, 107);
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-inner-section {
+    background-color: rgb(89, 49, 107);
+    height: 80%;
+    width: 65%;
+    display: inline-block;
+    padding: 5px;
+    display: flex;
+}
+
+.left-side-section {
+    height: 85%;
+    width: 80%;
+    background-color: rgb(89, 49, 107);
+}
+
+.left-side-section h5 {
+    color: white;
+    display: block;
+    margin-top: 15px;
+}
+
+.left-side-section p {
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.right-side-section {
+    background-color: rgb(89, 49, 107);
+    height: 100%;
+    width: 20%;
+    float: right;
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+.right-side-list li {
+    list-style: none;
+    font-size: 14px;
+    
+}
+.right-side-list a {
+    color: white;
+    font-weight: 400;
+}
+
+.right-side-donate {
+    background-color: #ffbf00;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+.right-side-donat span {
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
+
+.third-row {
+    background-color: rgb(89, 49, 107);
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-info-containcer {
+    display: flex;
+    height: 120px;
+    width: 66%;
+    background-color: rgb(89, 49, 107);
+}
+
+.social-dis {
+    height: 120px;
+    width: 70%;
+    background-color: rgb(89, 49, 107);
+}
+
+.subscribe-heading {
+    display: block;
+}
+
+.subscribe-heading p {
+    font-size: 16px;
+    color: white;
+}
+
+.get-phara {
+    margin-top: 10px;
+}
+
+.get-phara p {
+    color: white;
+    font-size: 15px;
+}
+
+.third-row-singup {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(60, 33, 72);
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.third-row-singup a {
+    color: white;
+    font-size: 12px;
+}
+
+.icons-container {
+    background-color: rgb(89, 49, 107);
+    height: 120px;
+    width: 30%;
+    float: right;
+    margin-left: 23px;
+} 
+
+.icons-row {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.last-row {
+    background-color: rgb(89, 49, 107);
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.copy-right {
+    width: 85%;
+    height: 55px;
+    background-color: rgb(89, 49, 107);
+    margin-top: 3px;
+    margin-left: 80px;
+}
+
+.copy-right-container {
+    background-color: rgb(89, 49, 107);
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.copy-right-container p {
+    font-size: 16px;
+    color: white;
+}
+
+.last-btn {
+    background-color: rgb(89, 49, 107);
+    width: 23%;
+    height: 38px;
+    float: right;
+    margin-top: 13px;
+}
+
+.last-btn button {
+    font-size: 13px;
+    padding: 4px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(125, 70, 152);
+}
+/* Footer Section Ends */
